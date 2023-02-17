@@ -44,3 +44,7 @@ const question = prompt("What is your name?");
 const headingText = document.querySelector(".change");
 const capitalize = question.charAt(0).toUpperCase() + question.slice(1);
 headingText.textContent = capitalize;
+
+if(question == undefined || question == "") {
+    headingText.textContent = "User";
+}
