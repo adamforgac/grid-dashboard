@@ -39,3 +39,8 @@ form.addEventListener("click", function() {
 game.addEventListener("click", function() {
     window.open("https://adamforgac.github.io/etch-a-sketch/", "_blank");
 })
+
+const question = prompt("What is your name?");
+const headingText = document.querySelector(".change");
+const capitalize = question.charAt(0).toUpperCase() + question.slice(1);
+headingText.textContent = capitalize;
