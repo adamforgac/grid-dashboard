@@ -1,2 +1,3 @@
 # grid-dashboard
-Dashboard done mainly by using grid system
+Dashboard with pregiven design from TOP.
+Grid is used mainly in this project.
